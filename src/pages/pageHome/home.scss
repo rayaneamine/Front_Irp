@@ -1,0 +1,53 @@
+body{
+    background: black;
+
+}
+
+
+main{
+    background: #0000;
+    padding-top: 40px;
+    height: 1400px;
+    width: 100%;
+    color: #ffff;
+
+}
+.quiSommesNous{
+    height: fit-content;
+    display:flex;
+    color: #ffff
+    ;
+}
+.Nos-reparateur{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider{
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.avis{
+    display: flex;
+    justify-content: space-between;
+
+    .avis1, .avis2, .avis3{
+        background: #c4c4c4;
+        margin: 15px;
+        padding: 15px;
+    }
+   
+
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: x-large;
+    
+  }
+  a:hover{
+    color: plum;
+  }
