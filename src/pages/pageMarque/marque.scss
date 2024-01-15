@@ -1,0 +1,61 @@
+.recherchePanne {
+    clip-path: polygon(0 0%, 100% 0%, 100% 94%, 0% 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      126deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(246, 251, 255, 1) 47%,
+      rgba(171, 218, 255, 1) 100%
+    );
+    padding: 100px 0 100px 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    .titlePanne {
+      width: 100%;
+      width: 100%;
+      color: #637fbb;
+      text-align: center;
+      font-family: "ChakraPetch";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      margin-bottom: 50px;
+    }
+    .appareilsContainer {
+      height: fit-content;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+  
+      .appareilsImages {
+        width: 20vw;
+        height: auto;
+        margin: 50px 50px 0 50px;
+        border-radius: 20px;
+        transition: 0.5s;
+        -webkit-box-shadow: -3px 4px 15px 6px rgba(0, 0, 0, 0.2);
+        box-shadow: -3px 4px 15px 6px rgba(0, 0, 0, 0.2);
+      }
+      .appareilsImages:hover {
+        filter: brightness(0.85);
+        border-radius: 70px;
+        filter: brightness(116%);
+        -webkit-filter: brightness(116%);
+        -moz-filter: brightness(116%);
+      }
+      .titlePanneAppareil {
+        width: 100%;
+        
+        margin-top: 20px;
+        text-align: center;
+        color: #000;
+        font-family: "ChakraPetch";
+        font-size: 30px;
+      }
+    }
+  }

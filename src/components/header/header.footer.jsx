@@ -12,13 +12,13 @@ const HeaderFooter = () => {
                     <Link to="/"> <img className="logo" src="/asset/images/logo.png" alt="Logo IRP" /></Link>
                     <div className="callToAction">
                     <ul>
-                            <li>
+                            <li className="btn_connexion">
                                 <Link 
                                     to={{pathname: `connexion/${1}`}}
                                     state={{title: "Page Connexion"}}>Connexion</Link>
 
                             </li>
-                            <li>
+                            <li className="btn_inscription">
                                     <Link 
                                         to={{pathname: `inscription/${1}`}}
                                         state={{title: "Page Inscription"}}>Inscription</Link>

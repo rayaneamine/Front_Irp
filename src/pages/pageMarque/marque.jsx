@@ -1,21 +1,26 @@
 import React from 'react';
-import "./model.scss";
-import { Link } from "react-router-dom";
+import "./marque.scss";
+import Nav from "../../components/navigation/nav.jsx";
 
 
-const Model = () => {
+
+const Marque = () => {
 	return (
 
 		<>
+
 			<section className="recherchePanne">
-				<h1 className="titlePanne">Démarrez votre recherche de techniciens <br></br>en sélectionnant l’appareil concerné</h1>
+				<Nav/>
+
+                <h2>Marque</h2>
+                <a href="/model" class="call-to-action blue">Suivant</a>
 				<div className="appareilsContainer">
-					<Link to="/contact"> <img
+					{/* <Link to="/contact"> <img
 						className="appareilsImages"
 						src="./assets/images/Rectangle_44.png"
 						alt="téléphone"
 					/>
-					</Link>
+					</Link> */}
 					<h2 className="titlePanneAppareil">Téléphone</h2>
 				</div>
 				<div className="appareilsContainer">
@@ -80,4 +85,4 @@ const Model = () => {
 	);
 };
 
-export default Model;
+export default Marque;

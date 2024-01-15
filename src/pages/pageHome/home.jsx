@@ -1,6 +1,5 @@
 import React from "react";
 import Newsletter from "../../components/newsletter/newsletter";
-
 import Slide from "../../components/slides/slides";
 
 import "./home.scss";
