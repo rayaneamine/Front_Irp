@@ -1,18 +1,17 @@
+h2{
+    display: flex;
+    margin: 50px;
+}
 .recherchePanne {
-    clip-path: polygon(0 0%, 100% 0%, 100% 94%, 0% 100%);
+    
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-      126deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(246, 251, 255, 1) 47%,
-      rgba(171, 218, 255, 1) 100%
-    );
-    padding: 100px 0 100px 0;
+    
+    padding: 70px 0 70px 0;
     width: 100%;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   
     .titlePanne {
       width: 100%;

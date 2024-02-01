@@ -1,79 +1,81 @@
 import React from 'react';
 import "./model.scss";
 import { Link } from "react-router-dom";
-
+import Nav from "../../components/navigation/nav.jsx";
 
 const Model = () => {
 	return (
 
 		<>
 			<section className="recherchePanne">
-				<h1 className="titlePanne">Démarrez votre recherche de techniciens <br></br>en sélectionnant l’appareil concerné</h1>
-				<div className="appareilsContainer">
-					<Link to="/contact"> <img
+				<Nav/>
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone 15</h2>
+				<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_44.png"
-						alt="téléphone"
-					/>
-					</Link>
-					<h2 className="titlePanneAppareil">Téléphone</h2>
-				</div>
-				<div className="appareilsContainer">
-					<img
-						className="appareilsImages"
-						src="./assets/images/Rectangle_45.png"
+						src="./asset/images/Rectangle_44.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Tablette</h2>
+					
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone 14</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_46.png"
+						src="./asset/images/Rectangle_45.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Pc fixe</h2>
+					
 				</div>
 				<div className="appareilsContainer">
+				<h2 className="titlePanneAppareil">Iphone 13</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/.png"
+						src="./asset/images/Rectangle_46.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Pc portable</h2>
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone 13</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_48.png"
+						src="./asset/images/rectangle_47.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">TV</h2>
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer">	<h2 className="titlePanneAppareil">Iphone 12</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_49.png"
+						src="./asset/images/Rectangle_48.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Console de jeux</h2>
+				
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone 11</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_50.png"
+						src="./asset/images/Rectangle_49.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Autres appareils</h2>
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone X/Xs</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_51.png"
+						src="./asset/images/Rectangle_50.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Pièces et composants</h2>
+					
 				</div>
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone Ultérieur</h2>
+					<img
+						className="appareilsImages"
+						src="./asset/images/Rectangle_51.png"
+						alt=""
+					/>
+					
+				</div>
+				
 			</section>
 		</>
 

@@ -20,7 +20,8 @@ const Nav = () => {
                 </li>
         </ul>
         </div>
-        <div className="nav">
+        <section>
+            <div className="nav">
             <Link
                 to="/"
                 className="navLiens"
@@ -44,6 +45,9 @@ const Nav = () => {
             </Link>
 
         </div>
+        </section>
+        <section><a href="#" class="call-to-action grey">En savoir +</a>
+        </section>
         </>
     )
 }

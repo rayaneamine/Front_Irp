@@ -1,3 +1,4 @@
+
 .callToAction {
     text-decoration: none;
     padding: 10px;
@@ -8,8 +9,7 @@
     font-family: "Exo2";
     transition: 0.5s;
     width: fit-content;
-    display: flex;
-    align-items: flex-end;
+   
     
     .callToAction.grey {
       background-color: var(--main-grey);
@@ -18,6 +18,11 @@
       filter: brightness(0.85);
     }
     
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: column;
   }
   .nav {
     text-decoration: none;
@@ -36,6 +41,17 @@
       width: 10%;
       margin: 30px;
       z-index: 100;
+    }
+    .call-to-action{
+        text-decoration: none;
+    justify-content: space-around;
+    height: fit-content;
+    width: fit-content;
+    padding: 11px 21px;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    transition: 0.5s;
     }
 
   }

@@ -3,6 +3,7 @@ import Home from './pages/pageHome/home';
 import HeaderFooter from "./components/header/header.footer";
 import Model from "./pages/pageModel/model";
 import Marque from "./pages/pageMarque/marque";
+import Techniciens from "./pages/pageTechniciens/techniciens";
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
             <Route index element={<Home />}/>
             <Route path="/marque" element={<Marque/>}/>
             <Route path="/model" element={<Model />} />
+            <Route path="/techniciens" element={<Techniciens />} />
           </Route>  
         </Routes>
       </BrowserRouter>

@@ -2,82 +2,71 @@ import React from 'react';
 import "./marque.scss";
 import Nav from "../../components/navigation/nav.jsx";
 
-
-
 const Marque = () => {
 	return (
 
 		<>
-
 			<section className="recherchePanne">
 				<Nav/>
-
-                <h2>Marque</h2>
-                <a href="/model" class="call-to-action blue">Suivant</a>
-				<div className="appareilsContainer">
-					{/* <Link to="/contact"> <img
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Iphone</h2>
+				<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_44.png"
-						alt="téléphone"
-					/>
-					</Link> */}
-					<h2 className="titlePanneAppareil">Téléphone</h2>
-				</div>
-				<div className="appareilsContainer">
-					<img
-						className="appareilsImages"
-						src="./assets/images/Rectangle_45.png"
+						src="./asset/images/Rectangle_44.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Tablette</h2>
+					
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Samsung</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_46.png"
+						src="./asset/images/Rectangle_45.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Pc fixe</h2>
+					
 				</div>
 				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Huawei</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/.png"
+						src="./asset/images/Rectangle_46.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Pc portable</h2>
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Xiaomi</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_48.png"
+						src="./asset/images/rectangle_47.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">TV</h2>
+					
 				</div>
-				<div className="appareilsContainer">
+				<div className="appareilsContainer"><h2 className="titlePanneAppareil">Autres</h2>
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_49.png"
+						src="./asset/images/Rectangle_48.png"
 						alt=""
 					/>
-					<h2 className="titlePanneAppareil">Console de jeux</h2>
+					
+				</div>
+				<div className="appareilsContainer">	<h2 className="titlePanneAppareil">Pc</h2>
+					<img
+						className="appareilsImages"
+						src="./asset/images/Rectangle_49.png"
+						alt=""
+					/>
+				
 				</div>
 				<div className="appareilsContainer">
 					<img
 						className="appareilsImages"
-						src="./assets/images/Rectangle_50.png"
+						src="./asset/images/Rectangle_50.png"
 						alt=""
 					/>
 					<h2 className="titlePanneAppareil">Autres appareils</h2>
 				</div>
-				<div className="appareilsContainer">
-					<img
-						className="appareilsImages"
-						src="./assets/images/Rectangle_51.png"
-						alt=""
-					/>
-					<h2 className="titlePanneAppareil">Pièces et composants</h2>
+			
 				</div>
 			</section>
 		</>
